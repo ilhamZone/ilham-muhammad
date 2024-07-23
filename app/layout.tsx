@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       {
         rel: "icon",
         type: "image/png",
-        url: "/logo.png",
+        url: "/logo-header.png",
       },
     ],
   },
