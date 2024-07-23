@@ -142,7 +142,7 @@ export const projectData = [
     platform: "Web App",
     description:
       "WMS Transmarco Web App is designed for warehouse administrators to efficiently manage inbound and outbound logistics. It provides a comprehensive platform to oversee inventory, track shipments, and ensure smooth warehouse operations.",
-    tools: ["React", "Typescript", "Redux Toolkit", "Tailwindcss"],
+    tools: ["React", "Typescript", "Redux Toolkit"],
     link: "",
   },
   {
@@ -158,7 +158,7 @@ export const projectData = [
     platform: "Mobile App",
     description:
       "WMS Transmarco Mobile App is designed for warehouse staff to streamline the scanning and management of inbound and outbound items. It provides a convenient and efficient way to handle inventory using mobile devices.",
-    tools: ["React", "Typescript", "Redux Toolkit", "Tailwindcss"],
+    tools: ["React", "Typescript", "Redux Toolkit"],
     link: "",
   },
   {
