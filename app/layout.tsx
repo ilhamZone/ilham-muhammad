@@ -13,6 +13,15 @@ export const metadata: Metadata = {
   title: "Ilham Muhammad",
   description: "Ilham Muhammad Portfolio",
   keywords: "Ilham Muhammad, Ilham Muhammad Portfolio, Portfolio",
+  icons: {
+    icon: [
+      {
+        rel: "icon",
+        type: "image/ico",
+        url: "/favicon.ico",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
