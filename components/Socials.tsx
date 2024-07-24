@@ -12,10 +12,16 @@ type SocialsProps = {
 };
 
 const icons = [
-  { path: "/", icon: <RiGithubFill /> },
-  { path: "/", icon: <RiLinkedinFill /> },
-  { path: "/", icon: <RiFacebookBoxFill /> },
-  { path: "/", icon: <RiInstagramFill /> },
+  { path: "https://github.com/ilhamZone", icon: <RiGithubFill /> },
+  {
+    path: "https://www.linkedin.com/in/ilham-muhammad007",
+    icon: <RiLinkedinFill />,
+  },
+  {
+    path: "https://www.facebook.com/ilham.muhammad.186",
+    icon: <RiFacebookBoxFill />,
+  },
+  { path: "https://www.instagram.com/ilhamaik", icon: <RiInstagramFill /> },
 ];
 
 const Socials = ({ className, iconClassName }: SocialsProps) => {
