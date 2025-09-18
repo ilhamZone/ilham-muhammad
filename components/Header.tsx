@@ -14,10 +14,30 @@ const Header = () => {
   const pathname = usePathname();
 
   useEffect(() => {
+    // Adding buffer zone to prevent twitch
+    const threshold = 5; // Buffer zone 5px
+    let lastScrollY = 0;
+
     const scrollHandler = () => {
-      window.scrollY > 50 ? setHeader(true) : setHeader(false);
+      const currentScrollY = window.scrollY;
+
+      // Only change state if scroll difference exceeds threshold
+      if (Math.abs(currentScrollY - lastScrollY) > threshold) {
+        // Use requestAnimationFrame for throttling
+        requestAnimationFrame(() => {
+          // Add hysteresis to prevent twitch around value 50
+          if (currentScrollY > 60) {
+            setHeader(true);
+          } else if (currentScrollY < 40) {
+            setHeader(false);
+          }
+
+          lastScrollY = currentScrollY;
+        });
+      }
     };
-    window.addEventListener("scroll", scrollHandler);
+
+    window.addEventListener("scroll", scrollHandler, { passive: true });
 
     return () => {
       window.removeEventListener("scroll", scrollHandler);
