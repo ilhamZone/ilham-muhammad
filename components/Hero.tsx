@@ -5,7 +5,6 @@ import { Download, Send } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
 import { RiArrowDownSLine } from "react-icons/ri";
 
-import Badge from "./Badge";
 import DevImg from "./DevImg";
 import Socials from "./Socials";
 
@@ -23,13 +22,6 @@ const Hero = () => {
         alink.click();
       });
     });
-  };
-
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "center" });
-    }
   };
 
   return (
@@ -77,14 +69,24 @@ const Hero = () => {
               iconClassName="text-foreground text-[22px] hover:text-primary transition-all"
             />
           </div>
-          <div className="hidden lg:flex relative">
+          <div className="hidden lg:flex relative overflow-hidden rounded-full">
             <DevImg
-              imgSrc="/hero/profile-pic.png"
+              imgSrc="/hero/dev-illustration.svg"
               className="w-[480px] h-[480px]"
             />
           </div>
         </div>
-        <div className="hidden md:flex absolute left-2/4 bottom-44 lg:bottom-12 animate-bounce">
+        <div
+          onClick={() => {
+            document
+              .querySelector("section")
+              ?.nextElementSibling?.scrollIntoView({
+                behavior: "smooth",
+                block: "center",
+              });
+          }}
+          className="hidden md:flex absolute left-2/4 bottom-44 lg:bottom-12 animate-bounce cursor-pointer hover:scale-110 transition-transform"
+        >
           <RiArrowDownSLine className="text-3xl text-primary" />
         </div>
       </div>

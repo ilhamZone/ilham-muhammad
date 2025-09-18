@@ -1,0 +1,54 @@
+<svg width="480" height="480" viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="240" cy="240" r="240" fill="#F3F4F6" />
+  
+  <!-- Laptop -->
+  <rect x="120" y="260" width="240" height="160" rx="8" fill="#374151" />
+  <rect x="130" y="270" width="220" height="130" rx="4" fill="#1F2937" />
+  <rect x="140" y="280" width="200" height="110" rx="2" fill="#111827" />
+  
+  <!-- Code on Screen -->
+  <rect x="150" y="290" width="80" height="6" rx="2" fill="#6366F1" />
+  <rect x="150" y="305" width="120" height="6" rx="2" fill="#10B981" />
+  <rect x="150" y="320" width="100" height="6" rx="2" fill="#F59E0B" />
+  <rect x="150" y="335" width="90" height="6" rx="2" fill="#EC4899" />
+  <rect x="150" y="350" width="130" height="6" rx="2" fill="#8B5CF6" />
+  <rect x="150" y="365" width="70" height="6" rx="2" fill="#10B981" />
+  
+  <!-- Person -->
+  <!-- Head -->
+  <circle cx="240" cy="180" r="60" fill="#F59E0B" />
+  
+  <!-- Face -->
+  <circle cx="220" cy="170" r="5" fill="#1F2937" /> <!-- Left Eye -->
+  <circle cx="260" cy="170" r="5" fill="#1F2937" /> <!-- Right Eye -->
+  <path d="M230 200 Q240 210 250 200" stroke="#1F2937" stroke-width="3" stroke-linecap="round" /> <!-- Smile -->
+  
+  <!-- Hair -->
+  <path d="M200 140 Q240 110 280 140 L280 160 Q240 130 200 160 Z" fill="#1F2937" />
+  
+  <!-- Neck -->
+  <rect x="230" y="230" width="20" height="30" fill="#F59E0B" />
+  
+  <!-- Body/Shirt -->
+  <path d="M180 260 L230 230 L250 230 L300 260 L300 320 L180 320 Z" fill="#3B82F6" />
+  
+  <!-- Arms -->
+  <rect x="180" y="260" width="20" height="80" rx="10" fill="#F59E0B" /> <!-- Left Arm -->
+  <rect x="280" y="260" width="20" height="80" rx="10" fill="#F59E0B" /> <!-- Right Arm -->
+  
+  <!-- Hands on Keyboard -->
+  <rect x="170" y="340" width="30" height="15" rx="5" fill="#F59E0B" /> <!-- Left Hand -->
+  <rect x="280" y="340" width="30" height="15" rx="5" fill="#F59E0B" /> <!-- Right Hand -->
+  
+  <!-- Glasses -->
+  <rect x="210" y="165" width="20" height="10" rx="5" fill="#1F2937" /> <!-- Left Lens -->
+  <rect x="250" y="165" width="20" height="10" rx="5" fill="#1F2937" /> <!-- Right Lens -->
+  <line x1="230" y1="170" x2="250" y2="170" stroke="#1F2937" stroke-width="2" /> <!-- Bridge -->
+  
+  <!-- Decorative Elements -->
+  <circle cx="350" cy="150" r="15" fill="#EC4899" opacity="0.7" />
+  <circle cx="380" cy="180" r="10" fill="#8B5CF6" opacity="0.7" />
+  <circle cx="130" cy="200" r="20" fill="#10B981" opacity="0.7" />
+  <circle cx="100" cy="150" r="12" fill="#F59E0B" opacity="0.7" />
+</svg>

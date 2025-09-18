@@ -1,8 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js, React, and Tailwind CSS. This project showcases my skills, projects, and professional experience.
 
-First, run the development server:
+## Features
+
+- Responsive design for all devices
+- Dark/Light theme toggle
+- Project showcase with detailed information
+- Contact form with email functionality
+- Animated UI components using Framer Motion
+- SEO optimized
+
+## Technologies Used
+
+- Next.js 14
+- React 18
+- Tailwind CSS
+- TypeScript
+- Framer Motion
+- React Hook Form
+- Resend (for email functionality)
+- Next Themes
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/ilham-muhammad.git
+cd ilham-muhammad
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Create a `.env.local` file in the root directory and add your environment variables:
+
+```
+# Example environment variables
+RESEND_API_KEY=your_resend_api_key
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
@@ -10,27 +56,42 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To build the application for production:
+
+```bash
+npm run build
+# or
+yarn build
+# or
+pnpm build
+```
+
+Then, you can start the production server:
+
+```bash
+npm run start
+# or
+yarn start
+# or
+pnpm start
+```
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [Framer Motion Documentation](https://www.framer.com/motion/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project can be easily deployed on [Vercel](https://vercel.com/) or any other hosting platform that supports Next.js applications.
